@@ -583,7 +583,7 @@
         const current = selectedOptions[currentIndex];
         playStream(current.value);
         currentIndex = (currentIndex + 1) % selectedOptions.length;
-        randomLoopTimeout = setTimeout(playNext, 60000);
+        randomLoopTimeout = setTimeout(playNext, 240000);
       }
 
       stopRandomPreview = false;
